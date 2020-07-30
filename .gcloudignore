@@ -1,0 +1,9 @@
+.git
+.idea
+
+.gitignore
+.gcloudignore
+
+README.md
+/setup.cfg
+__pycache__/
