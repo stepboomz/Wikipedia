@@ -18,8 +18,8 @@ warnings.simplefilter("ignore")
 # アクセストークンの設定
 LINE_CHANNEL_ACCESS_TOKEN = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN")
 LINE_CHANNEL_SECRET = os.environ.get("LINE_CHANNEL_SECRET")
-line_bot_api = LineBotApi('abTeZHrpH8QDHsF1IGqaNwPSiWRkXGK2ABeaui1CzEd70bh8PAHsvFV+zhNTKyZ3Jk72xe87Y+ebw28ChLCcNiAxh2WxxKqmHaxQDp40p7hdDQGo4eHTEzeppEFZCRJ+rXMux2sKlvmZVa6f1CUJ9wdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('1ff98ebae21ae9e8b9e6c1c16ac1c4cf')
+line_bot_api = LineBotApi('LINE_CHANNEL_ACCESS_TOKEN"')
+handler = WebhookHandler('LINE_CHANNEL_SECRET')
 
 
 def wiki(input_text):
